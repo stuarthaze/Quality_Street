@@ -2,7 +2,9 @@
 
 ## Introduction
 This is inspired by a post I saw on Facebook where people seemed concerned that there was an uneven distribution of sweets in packets of Quality street as in the image below:
+
 <img src="Sweet_selection.jpg" width="200">
+
 I had two questions, supposing the total number of sweets is N and the number of types is K:
 #### Q1: What is the most likely distribution of numbers of sweets after reordering accorging the number in each category?
 #### Q2: What is the probability that a given outcome $Y = (n_1, n_2, \hdots, n_K)$, where the indices specify the original (unordered) categories?
