@@ -3,7 +3,7 @@
 ## Introduction
 This is inspired by a post I saw on Facebook where people seemed concerned that there was an uneven distribution of sweets in packets of Quality street as in the image below:
 
-<img src="Sweet_selection.jpg" width="200">
+<img src="Sweet_selection.jpg" width="400">
 
 I had two questions: Suppose the total number of sweets is N and the number of types is K and the probablity of selecting a given type at each draw is p(i) = 1/K
 #### Q1: What is the most likely distribution of numbers of sweets after reordering accorging the number in each category?
