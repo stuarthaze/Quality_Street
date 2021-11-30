@@ -21,8 +21,11 @@ What I find both interesting and difficult in statistics is navigating the diffe
 2. Bayesian - The probability of a certain result given a finite set of data and prior expectations
 
 In retrospect Q1 is frequentist and Q2 is Bayesian. In both cases we assume that the underlying probability distribution is evenly distributed, ie. $p(x_1) = p(x_2) = \hdots = p(x_N)$. 
-Q1 is frequentist, ie., given 
+#### A:Q1 is frequentist
+ie., given 
 $p(x_i)=1/K$  and   
 $\sum_i p(x_i) = 1$   
-then $<p(y_j)> = \sum_{j=1}^m sort(p(x))^{(j)}>$
+then $<p(y_j)> = \sum_{j=1}^m sort(p(x))^{(j)}/m$
+The probablitily distribution p(x) is a multinomial distribution and can be simulated by a random variable.
 
+r draws from 
