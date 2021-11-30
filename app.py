@@ -11,7 +11,7 @@ p = [1/k]*k # Probabilities
 
 Mean_vals = np.mean(results, axis=0)
 X = 1 + np.ones((t,1))*np.arange(k) + jitter*np.random.rand(t, k)-0.5*jitter
-Y = results + jitter*np.random.rand(t, k) - 0.5*jitter
+Y = results + jitter*np.random.rand(t, k)*jitter
 fig = plt.scatter(X,Y)
 st.pyplot(fig)
 # plt.figure(figsize=(12, 8))
