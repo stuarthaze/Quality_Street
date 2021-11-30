@@ -12,8 +12,8 @@ p = [1/k]*k # Probabilities
 Mean_vals = np.mean(results, axis=0)
 X = 1 + np.ones((t,1))*np.arange(k) + jitter*np.random.rand(t, k)-0.5*jitter
 Y = results + jitter*np.random.rand(t, k) - 0.5*jitter
-fig = st.pyplot()
-fig.scatter(X,Y)
+fig = plt.scatter(X,Y)
+st.pyplot(fig)
 # plt.figure(figsize=(12, 8))
 # plt.scatter(X, Y, s=6, alpha=0.8)
 # plt.grid()
@@ -24,4 +24,3 @@ fig.scatter(X,Y)
 
 # ax = plt.gca()
 # ax.set_ylim([0, np.max(Y)])
-st.p
