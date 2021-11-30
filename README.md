@@ -23,5 +23,5 @@ In retrospect Q1 is frequentist and Q2 is Bayesian. In both we assume that the u
 Q1 is frequentist, ie., given 
 $p(x_i)=1/K$  and   
 $\sum_i p(x_i) = 1$   
-then <p(x_j)> = \sum_{j=1}^m sort(p)^{(j)}>
+then $<p(x_j)> = \sum_{j=1}^m sort(p)^{(j)}>$
 
