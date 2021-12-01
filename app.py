@@ -14,13 +14,13 @@ X = 1 + np.ones((t,1))*np.arange(k) + jitter*np.random.rand(t, k)-0.5*jitter
 Y = results + jitter*np.random.rand(t, k)*jitter
 fig = plt.scatter(X,Y)
 st.pyplot(fig)
-# plt.figure(figsize=(12, 8))
+plt.figure(figsize=(12, 8))
 # plt.scatter(X, Y, s=6, alpha=0.8)
 # plt.grid()
 # plt.plot(np.arange(k)+1, Mean_vals, color='black', marker='x', markersize = 15, linestyle=':', linewidth=1)
 # plt.title(f'Distribution of results for n = {n} and k = {k}')
-# for i in range(k):
-#     plt.text(i+1, 0.1, f'{Mean_vals[i]:.1f}')
+for i in range(k):
+    plt.text(i+1, 0.1, f'{Mean_vals[i]:.1f}')
 
 # ax = plt.gca()
 # ax.set_ylim([0, np.max(Y)])
