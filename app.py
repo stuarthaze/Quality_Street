@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 n = st.button(value=80) # Number of examples
 k = st.button(value= 10) # Number of categories
-jitter=st.button.(value=0.4)
+jitter=st.button.=(value=0.4)
 t = st.button(value=100) # Number of repetitions
 
 p = [1/k]*k # Probabilities
