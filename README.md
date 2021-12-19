@@ -1,3 +1,5 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 # Quality Street Problem
 
 ## Introduction
@@ -20,7 +22,7 @@ What I find both interesting and difficult in statistics is navigating the diffe
 1. Frequentist - The average expected outcome of an infinite number of events
 2. Bayesian - The probability of a certain result given a finite set of data and prior expectations
 
-In retrospect Q1 is frequentist and Q2 is Bayesian. In both cases we assume that the underlying probability distribution is evenly distributed, ie. $p(x_1) = p(x_2) = \hdots = p(x_N)$. 
+In retrospect Q1 is frequentist and Q2 is Bayesian. In both cases we assume that the underlying probability distribution is evenly distributed, ie. $$p(x_1) = p(x_2) = \hdots = p(x_N)$$ 
 #### A:Q1 is frequentist
 ie., given 
 $$p(x_i)=1/K$$  and   
