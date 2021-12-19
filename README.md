@@ -13,21 +13,14 @@ However, it's obvious that if you select at random from an equal probability, it
 
 Suppose the total number of sweets is N, the number of types is K, and the probablity of selecting a given type (or category) *i* at each draw is $$p_i = 1/K$$
 
-#### Q1: What is the most likely distribution of numbers of sweets after re-ordering accorging the number in each category?
-#### Q2: What is the probability that a given outcome $$Y = (n_1, n_2, \cdots, n_K)$$, where the indices specify the original (unordered) categories?
-
+#### Q: What is the most likely distribution of numbers of sweets after re-ordering accorging the number in each category?
 
 ### Theory
-These two problems can be categorised as coming from two different perspectives:
-1. Frequentist - The average expected outcome of an infinite number of events
-2. Bayesian - The probability of a certain result given a set of data and prior knowledge
+We can denote a specific outcome as
+$$X = (x_1, x_2, \cdots, x_K)$$
+where $$x_i$$ is the number of sweets in category *i* after selecting *N* at random.  The reordered outcome is
+$$Y = sort(X)$$
 
-
-#### A:Q1 
-Given 
-$$p(x_i)=1/K$$  and   
-$$\sum_i p(x_i) = 1$$   
-then $$<p(y_j)> = \sum_{j=1}^m sort(p(x))^{(j)}/m$$
-The probablitily distribution p(x) is a multinomial distribution and can be simulated by a random variable.
-
-r draws from 
+The underlying probablility distribution for *X* is multinomial, but with the added complication of re-ordering the categories according to size which changes the expectation value from N/K for each element of *X* to something more complicated.
+One way of solving this is by simulation. I built a streamlit web app to do this. You can launch it: 
+[Web App]()
