@@ -9,7 +9,7 @@ This is quite interesting, since you might expect an equal number of each, right
 
 However, it's obvious that if you select at random from an equal probability, it is highly unlikely that the outcome is equal. Why? Because there are many more ways to select for an uneven distribution than for an even one. Okay, that is easy enough, but what should you expect and how would you check if the distribution is really random or not?  Lets formalize these questions more clearly:
 
-Suppose the total number of sweets is N, the number of types is K, and the probablity of selecting a given type at each draw is $p^{(i)} = 1/K$
+Suppose the total number of sweets is N, the number of types is K, and the probablity of selecting a given type at each draw is $$p^{(i)} = 1/K$$
 
 #### Q1: What is the most likely distribution of numbers of sweets after re-ordering accorging the number in each category?
 #### Q2: What is the probability that a given outcome $Y = (n_1, n_2, \hdots, n_K)$, where the indices specify the original (unordered) categories?
@@ -23,9 +23,9 @@ What I find both interesting and difficult in statistics is navigating the diffe
 In retrospect Q1 is frequentist and Q2 is Bayesian. In both cases we assume that the underlying probability distribution is evenly distributed, ie. $p(x_1) = p(x_2) = \hdots = p(x_N)$. 
 #### A:Q1 is frequentist
 ie., given 
-$p(x_i)=1/K$  and   
-$\sum_i p(x_i) = 1$   
-then $<p(y_j)> = \sum_{j=1}^m sort(p(x))^{(j)}/m$
+$$p(x_i)=1/K$$  and   
+$$\sum_i p(x_i) = 1$$   
+then $$<p(y_j)> = \sum_{j=1}^m sort(p(x))^{(j)}/m$$
 The probablitily distribution p(x) is a multinomial distribution and can be simulated by a random variable.
 
 r draws from 
