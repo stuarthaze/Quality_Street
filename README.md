@@ -22,8 +22,9 @@ where $$x_i$$ is the number of sweets in category *i* after selecting *N* at ran
 $$Y = sort(X)$$
 
 The underlying probablility distribution for *X* is multinomial, but with the added complication of re-ordering the categories according to size which changes the expectation value from N/K for each element of *X* to something more complicated.
-One way of solving this is by simulation. I built a streamlit web app to do this. You can launch it: 
-[Web App](https://mysterious-falls-98860.herokuapp.com/)
+One way of solving this is by simulation. I built a streamlit web app to do this. 
+
+[Launch web App](https://mysterious-falls-98860.herokuapp.com/)
 
 This is a typical result:
 <img src="Simulation_result.jpg" width="400">
