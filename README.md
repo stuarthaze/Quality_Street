@@ -27,11 +27,11 @@ The underlying probablility distribution for *X* is multinomial, but to solve th
 One way of finding an approximate solution is by simulation with repeated random draws. The web app below performs the simulation for *t* trials and averages the results to estimate the most likely outcome for *Y*:
 
 ### [Launch web App](https://mysterious-falls-98860.herokuapp.com/)
+You can use this to play around with the parameters
 
 This is a typical result:  
 <img src="Simulation_result.png" width="300">
 
-You can play around with the parameters using the web app below: 
 
 The code for the app is here: [Github code](https://github.com/stuarthaze/Quality_Street)
 
