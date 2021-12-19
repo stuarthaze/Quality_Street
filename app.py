@@ -46,7 +46,7 @@ for i in range(k):
     plt.text(i+1, 0.1, f'{Mean_vals[i]:.1f}')
 
 ax.set_ylim([0, np.max(Y)])
-ax.set_ title(f'Distribution of results for n = {n} and k = {k}')
+ax.set_title(f'Distribution of results for n = {n} and k = {k}')
 ax.set_xlabel('Category ordered by count')
 ax.set_ylabel('Number of items')
 st.pyplot(fig)
