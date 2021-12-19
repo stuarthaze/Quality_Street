@@ -28,3 +28,5 @@ One way of solving this is by simulation. I built a streamlit web app to do this
 
 This is a typical result:
 <img src="Simulation_result.jpg" width="400">
+
+The code for the app is here: [Github code](https://github.com/stuarthaze/Quality_Street)
