@@ -21,7 +21,7 @@ $$X = (x_1, x_2, \cdots, x_K)$$
 where $$x_i$$ is the number of sweets in category *i* after selecting *N* at random.  The reordered outcome is
 $$Y = sort(X)$$
 
-The underlying probablility distribution for *X* is multinomial, but with the added complication of re-ordering the categories according to size which changes the expectation value from N/K for each element of *X* to something more complicated.
+The underlying probablility distribution for *X* is multinomial, but to solve the problem we have the added complication of re-ordering the categories according to size. While the expectation values of *X* are all *N/K*, the expectation values of *Y* are more complicated.
 One way of solving this is by simulation. 
 
 This is a typical result:
@@ -31,5 +31,6 @@ You can play around with the parameters using the web app below:
 
 ### [Launch web App](https://mysterious-falls-98860.herokuapp.com/)
 
-
 The code for the app is here: [Github code](https://github.com/stuarthaze/Quality_Street)
+
+I'm curious if there is an analytic solution to this problem. Please leave a note if you find one!
