@@ -27,6 +27,6 @@ One way of solving this is by simulation. I built a streamlit web app to do this
 [Launch web App](https://mysterious-falls-98860.herokuapp.com/)
 
 This is a typical result:
-<img src="Simulation_result.jpg" width="400">
+<img src="Simulation_result.png" width="300">
 
 The code for the app is here: [Github code](https://github.com/stuarthaze/Quality_Street)
