@@ -7,9 +7,7 @@ This is inspired by a post I saw on Facebook where people seemed concerned that 
 
 <img src="Sweet_selection.jpg" width="400">
 
-This is quite interesting, since you might expect an equal number of each, right?
-
-However, it's obvious that if you select at random from an equal probability, it is highly unlikely that the outcome is equal. Why? Because there are many more ways to select for an uneven distribution than for an even one. Okay, that is easy enough, but what should you expect and how would you check if the distribution is really random or not?  
+This is quite interesting, since you might expect an equal number of each, right? However, if you select at random with equal probability it's highly unlikely that the outcome is equal. Why? Because there are many more ways to select for an uneven distribution than for an even one. Okay, that is easy enough, but what should you expect and how would you check if the distribution is really random or not?  
 
 
 ## Q1: What is the most likely distribution of numbers of sweets after re-ordering accorging the number in each category?
