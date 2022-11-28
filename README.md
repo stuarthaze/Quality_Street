@@ -28,15 +28,16 @@ One way of finding an approximate solution is by simulation with repeated random
 I created a web app to demonstrate this, which performs the simulation for *t* trials and averages the results to estimate the most likely outcome for *Y*:
 
 ### [Launch web App](https://mysterious-falls-98860.herokuapp.com/)
-Note: This maybe taked offline soon, due to a change in policy at heroku, but the app itself can also be launched at the teminal (requires streamilt):
+Note: This might be taken offline soon, due to a change in policy at heroku. 
+
+The code for the app itself is on the [project page](https://github.com/stuarthaze/Quality_Street) and can also be launched at the teminal (requires streamilt):
 
 ```
 $ streamlit run app.py
 ```
 
-The code for the app is here: [Github code](https://github.com/stuarthaze/Quality_Street)
 
-I'm curious if there is an analytic solution to this problem. Please leave a note on the repository page if you find one!
+I'm curious if there is an analytic solution to this problem, so please leave a note on the repository page if you find one!
 
 ## Q2: Given this specific distribution, is it likely that it was drawn from a uniform probability distribution?
 
